@@ -7,11 +7,11 @@
 ## Note that this script requires that you have the ability to run
 ## commands as root via sudo.  Caveat Emptor!
 ##
-
+##
 ##
 ## Sanity checks
 ##
-
+##
 if [[ ! $OPENEDX_RELEASE ]]; then
     echo "You must define OPENEDX_RELEASE"
     exit
